@@ -1,0 +1,32 @@
+.contenedor{
+    margin: 2%;
+
+    box-shadow: none;
+    
+}
+.container2{
+    padding: 0px;
+    display: flex;
+    width: 70%;
+    height:  40%;
+    background-color: rgb(245, 243, 240);
+}
+.formulario{
+    margin-left: 10%;
+    padding: 10%;
+    text-align: start;
+}
+.formulario input{
+    border: none;
+    border: solid rgb(209, 200, 200);
+}
+.container2 img{
+    max-width: 40%;
+    min-height: 60%;
+  
+}
+
+.juntos{
+    display: flex;
+}
+  

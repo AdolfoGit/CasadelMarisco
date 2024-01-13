@@ -1,5 +1,5 @@
 import React from 'react'
-import './cookies.css'
+import './css/cookies.css'
 const Cookies = () => {
     const cookiesData = [
         { nombre: '__utma', tipo: 'De Terceros (Google Analytics)', caducidad: '2 años', finalidad: 'Se usa para distinguir usuarios y sesiones.', clase: 'No Exenta' },
