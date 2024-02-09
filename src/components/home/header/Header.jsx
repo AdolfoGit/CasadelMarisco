@@ -6,8 +6,10 @@ import WorkIcon from '@mui/icons-material/Work';
 import GridViewIcon from '@mui/icons-material/GridView';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
 import LocalGroceryStoreOutlinedIcon from '@mui/icons-material/LocalGroceryStoreOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+
 //saber donde estoy
 import { useLocation } from 'react-router-dom';
 
@@ -34,13 +36,14 @@ export const Header = () => {
                 <ul className={sidebar ? "nav-links-sidebar" : "nav-links"} onClick={ () => setSidebar(false)}>
                    <li className={location.pathname === '/' ? 'active' : ''}><Link to='/'>Home</Link></li>
                    <li className={location.pathname === '/pedidos' ? 'active' : ''}><Link to='/pedidos'>Pedidos</Link></li>
-                   <li className={location.pathname === '/nosotros' ? 'active' : ''}><Link to='/nosotros'>Nosotros</Link></li>
+                   <li className={location.pathname === '/ayuda' ? 'active' : ''}><Link to='/ayuda'>Ayuda</Link></li>
+                   <li className={location.pathname === '/nosotros' ? 'active' : ''}><Link to='/nosotros'>Mision/Vision</Link></li>
                    <li className={location.pathname === '/productos' ? 'active' : ''}><Link to='/productos'>Productos</Link></li>
                    <li className={location.pathname === '/reservaciones' ? 'active' : ''}><Link to='/reservaciones'>Reservaciones</Link></li  >
                    <li className={location.pathname === '/ofertas' ? 'active' : ''}><Link to='/ofertas'>Ofertas</Link></li>
-                   <li className={location.pathname === '/login' ? 'active' : ''}><Link to='/login'><button className='btn btn-warning cd'>Login</button></Link></li>
+                   <li className={location.pathname === '/login' ? 'active' : ''}><Link to='/login'><button className='btn btn-outline-warning cd'>Login</button></Link></li>
                    <li className='icon'>
-                    <SearchOutlinedIcon className='HeaderIcon'/>
+                   <Link to='carrito'><SearchOutlinedIcon className='HeaderIcon'/></Link>
                     <Link to='carrito'><LocalGroceryStoreOutlinedIcon className='HeaderIcon'/></Link>
                     <Link to='perfil'><AccountCircleOutlinedIcon className='HeaderIcon'/></Link>
                    </li>

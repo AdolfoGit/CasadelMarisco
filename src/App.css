@@ -68,7 +68,7 @@ header ul li a:hover{
   transition: 0.5s;
 }
 .navbar-items-icon{
-  color: black;
+  color: black; 
   display: none;
 }
 .logo img{
@@ -484,4 +484,73 @@ p{
   margin-bottom: 4%;
 }
 
+}
+
+/*--------LOGIN_:______*/
+.error-message {
+  color: red;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+.loginText{
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.loginTitulo{
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 20px;
+  margin-left: 0px;
+  color: #7952e3;
+}
+
+.loginLabel{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.forget{
+    color: blue;
+  text-align: end;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 50%;
+  width: 50%;
+}
+.singText{
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: blue;
+}
+.text2{
+  color:#fff;
+  margin-bottom: 10px;
+}
+.recuerdame{
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.recuerdame .singText{
+  color: blue;
+}
+
+.cuadro{
+  margin-right: 10px;
+}
+.password-input-container{
+  display: flex;
+  flex-direction: row;
+}
+
+/*-----------modaal--------*/
+.IconoRe{
+  font-size: large;
 }
